@@ -8,14 +8,14 @@
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <meta name="description" content="Free Web tutorials">
-                <meta name="keywords" content="'; echo $title; echo '">
+                <meta name="keywords" content="'. $title .'">
                 <meta name="author" content="Lovro-Mijo Popec">
-                <title>'; echo $title; echo '</title>
+                <title>'. $title .'</title>
             </head>
             <body>
-                <h1>'; echo $title; echo '</h1>
-                <p>'; echo $title; echo ' je kriminalistički triler američkog pisca Dana Browna.</p>
-                <a href="'; echo $link; echo '" target="_blank">'; echo $link; echo '</a>
+                <h1>'. $title .'</h1>
+                <p>'. $title .' je kriminalistički triler američkog pisca Dana Browna.</p>
+                <a href="'. $link .'" target="_blank">'. $link .'</a>
             </body>
             <footer>
             </footer>
