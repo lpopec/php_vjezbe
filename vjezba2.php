@@ -1,7 +1,9 @@
 <?php
+/*PHP vježba 2*/
+
     $title = "Da Vincijev kod";
     $link = "https://hr.wikipedia.org/wiki/Da_Vincijev_kod";
-    /*PHP vježba 1*/
+    
     echo '  <!DOCTYPE html>
             <html lang="hr">
             <head>
