@@ -3,22 +3,17 @@ $naslov    = "PHP dokument";
 $autor     = "Lovro-Mijo Popec";
 $link_href = "https://hr.wikipedia.org/wiki/PHP";
 $link_text = "Saznaj više o PHP-u";
+$link_natrag = "vjezba2a.php"
 ?>
 <!DOCTYPE html>
 <html lang="hr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?php echo htmlspecialchars($naslov); ?></title>
+  <title><?php echo $naslov; ?></title>
   <meta name="description" content="Prvi PHP dokument s osnovnim CSS stilom.">
   <style>
-    :root { 
-      --bg:#0f172a; 
-      --card:#ffffff; 
-      --text:#111827; 
-      --muted:#6b7280; 
-      --accent:#2563eb; 
-    }
+    :root { --bg:#0f172a; --card:#ffffff; --text:#111827; --muted:#6b7280; --accent:#2563eb; }
     * { box-sizing: border-box; }
     body { 
       margin:0; 
@@ -68,9 +63,11 @@ $link_text = "Saznaj više o PHP-u";
     <p>
       <a class="btn" href="<?php echo htmlspecialchars($link_href); ?>"
          target="_blank" rel="noopener"><?php echo htmlspecialchars($link_text); ?></a>
+      <a class="btn" href="<?php echo htmlspecialchars($link_natrag); ?>"
+         rel="noopener"><?php echo htmlspecialchars($link_natrag); ?></a>
     </p>
     <footer>&copy; <?php echo date('Y'); ?> — Demo za PHP</footer>
   </main>
 </body>
 </html>
-<!-- Naziv datoteke: vjezba2a.php -->
+<!-- Naziv datoteke: vjezba2b.php -->
