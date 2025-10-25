@@ -1,19 +1,23 @@
 <?php
     /*PHP vježba 1*/
+    $naslov = "Moj prvi PHP dokument";
+    $autor = "Lovro-Mijo Popec";
+
     echo '  <!DOCTYPE html>
             <html lang="hr">
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="description" content="Free Web tutorials">
-                <meta name="keywords" content="Da Vincijev kod">
+                <meta name="description" content="Moj prvi PHP dokument">
+                <meta name="keywords" content="Moj prvi PHP dokument">
                 <meta name="author" content="Lovro-Mijo Popec">
-                <title>Da Vincijev kod</title>
-            </head>
-            <body>
-                <h1>Da Vincijev kod</h1>
-                <p> Da Vincijev kod je kriminalistički triler američkog pisca Dana Browna.</p>
-                <a href="https://hr.wikipedia.org/wiki/Da_Vincijev_kod" target="_blank">https://hr.wikipedia.org/wiki/Da_Vincijev_kod</a>
+                <title>Moj prvi PHP dokument</title>
+            </head> 
+            <body> ';
+                echo "<h1>$naslov</h1>";
+                echo "<p>Ovu stranicu izradio je $autor</p>";
+                echo '<a href="https://github.com/lpopec/php_vjezbe/blob/main/vjezba1.php"target="_blank">Vježba 1 GITHUB</a>';
+    echo '
             </body>
             <footer>
             </footer>
