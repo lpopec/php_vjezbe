@@ -1,7 +1,7 @@
 <?php
 $naslov    = "PHP dokument";
 $autor     = "Lovro-Mijo Popec";
-$opis      = "Ova stranica nastavlja vježbu 1b i služi za uvježbavanje varijabli, ispisa i osnovnog CSS-a.";
+$opis      = "Ova stranica nastavlja vježbu 2a i služi za uvježbavanje varijabli, ispisa i osnovnog CSS-a.";
 $link_href = "https://hr.wikipedia.org/wiki/PHP";
 $link_text = "Saznaj više o PHP-u";
 $link_natrag = "vjezba2a.php"
