@@ -1,6 +1,7 @@
 <?php
 $naslov    = "PHP dokument";
 $autor     = "Lovro-Mijo Popec";
+$opis        = "Ova stranica nastavlja vježbu 1b i služi za uvježbavanje varijabli, ispisa i osnovnog CSS-a.";
 $link_href = "https://hr.wikipedia.org/wiki/PHP";
 $link_text = "Saznaj više o PHP-u";
 $link_natrag = "vjezba2a.php"
@@ -59,6 +60,7 @@ $link_natrag = "vjezba2a.php"
   <main class="wrap">
     <h1><?php echo htmlspecialchars($naslov); ?></h1>
     <p>Ovu stranicu izradio/la je <strong><?php echo htmlspecialchars($autor); ?></strong>.</p>
+    <p><?php echo htmlspecialchars($opis); ?></p>
     <p>PHP je serverski jezik koji generira HTML ili JSON odgovor prema klijentu.</p>
     <p>
       <a class="btn" href="<?php echo htmlspecialchars($link_href); ?>"
